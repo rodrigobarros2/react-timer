@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App'; //importei o componente Social de "./App"
 import * as serviceWorker from './serviceWorker';
+import './index.css'
 
 ReactDOM.render(<App />, document.getElementById('root')); //Social Importado agora Renderizo o Componente em Root
 
